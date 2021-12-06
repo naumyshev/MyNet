@@ -1,13 +1,15 @@
 import React from 'react';
 import './App.css';
+import Kabzda from "./Kabzda";
+import Simple from "./Simple";
+
 
 const App = () => {
     return (
         <div className="App">
 
-            <p>
-                kabzdec
-            </p>
+            <Kabzda />
+            <Simple />
 
         </div>
     );
